@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(53, 53, 53);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.card {
+    height: 80vh;
+    width: min(60vw, 500px);
+    background-color: rgb(95, 95, 95);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+
+.items {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.items div {
+    width: max-content;
+}
+
+.items div:hover {
+    cursor: pointer;
+}
